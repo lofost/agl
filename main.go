@@ -1447,9 +1447,9 @@ func printVersionInfo(plain bool) {
 	// Канонические ссылки
 	officialSite := "https://amberguard.dev"
 	// GitHub Source Code
-	sourceCodeGitHub := "https://github.com/kidmial/agl"
+	sourceCodeGitHub := "https://github.com/lofost/agl"
 	// GitFlic Source Code
-	sourceCodeGitFlic := "https://gitflic.ru/project/kidmial/agl"
+	sourceCodeGitFlic := "https://gitflic.ru/project/lofost/agl"
 
 	var lblVer, lblBuild, lblGo, lblLic, lblSite, lblGitHubSource, lblGitFlicSource string
 

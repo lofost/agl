@@ -10,10 +10,10 @@ We respond within 7 days, patch within 14 days, and publish no earlier than 90 d
 
 ## Supported Versions
 
-| Version | Supported |
-|---------|-----------|
-| `v8.5.x`| ✅ Yes     |
-| `< v8.0`| ❌ No      |
+| Version  | Supported |
+| -------- | --------- |
+| `v8.5.x` | ✅ Yes     |
+| `< v8.0` | ❌ No      |
 
 ## Vulnerability Reporting Channels
 
@@ -23,7 +23,7 @@ We welcome findings. To ensure security and confidentiality, please strictly sep
 
 If your finding relates to security circuits (**Tarpit**, **Armor**, **Castling**, **Web Rescue**, **Watcher**, **Autoupdate**, **Backup**), allows bypassing authorization mechanisms, causes uncontrolled daemon-mode failures, or compromises the `fail-closed` state of the complex, use only the protected channel:
 
-- **Submit a private report via GitHub Security Advisory**: [https://github.com/kidmial/agl/security/advisories/new](https://github.com/kidmial/agl/security/advisories/new)
+- **Submit a private report via GitHub Security Advisory**: [https://github.com/lofost/agl/security/advisories/new](https://github.com/lofost/agl/security/advisories/new)
 
 The report will go directly to the development team in a private dashboard. This channel guarantees protection of the transmitted technical data and logs from interception by third parties until the official release of the fix.
 
@@ -31,18 +31,18 @@ The report will go directly to the development team in a private dashboard. This
 
 If the issue does not pose a direct threat to the host's security and cannot be used to bypass the defense perimeter (e.g., `i18n` localization errors, typos in the TUI panel, build logic refactoring suggestions), use the standard issue trackers:
 
-- **Create an Issue on GitHub**: [https://github.com/kidmial/agl/issues](https://github.com/kidmial/agl/issues) — for public notification of issues found on the GitHub platform.
-- **Create an Issue on GitFlic**: [https://gitflic.ru/project/kidmial/agl/issue](https://gitflic.ru/project/kidmial/agl/issue) — for public tasks and discussions in the repository on the GitFlic platform.
+- **Create an Issue on GitHub**: [https://github.com/lofost/agl/issues](https://github.com/lofost/agl/issues) — for public notification of issues found on the GitHub platform.
+- **Create an Issue on GitFlic**: [https://gitflic.ru/project/lofost/agl/issue](https://gitflic.ru/project/lofost/agl/issue) — for public tasks and discussions in the repository on the GitFlic platform.
 
 ## Processing and Verification Timelines
 
 We value the work of independent researchers and guarantee adherence to strict timeframes for processing and verifying your findings:
 
-| Processing Stage    | Deadline / Condition | Description                                                                                       |
-|---------------------|----------------------|---------------------------------------------------------------------------------------------------|
-| **Response (Triage)**| Up to 7 days         | We acknowledge receipt, conduct initial technical analysis and verification of the issue in an isolated environment. |
-| **Fix (Patch)**     | Up to 14 days        | We develop, test, and release the fix within the framework of atomic configuration and build updates.               |
-| **Publication (Disclose)**| No earlier than 90 days | We publish the vulnerability details, giving host administrators sufficient time to update systems.               |
+| Processing Stage           | Deadline / Condition    | Description                                                                                                          |
+| -------------------------- | ----------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **Response (Triage)**      | Up to 7 days            | We acknowledge receipt, conduct initial technical analysis and verification of the issue in an isolated environment. |
+| **Fix (Patch)**            | Up to 14 days           | We develop, test, and release the fix within the framework of atomic configuration and build updates.                |
+| **Publication (Disclose)** | No earlier than 90 days | We publish the vulnerability details, giving host administrators sufficient time to update systems.                  |
 
 ## Interaction Rules
 
